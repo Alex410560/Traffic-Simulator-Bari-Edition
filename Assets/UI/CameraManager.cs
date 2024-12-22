@@ -71,7 +71,7 @@ public class CameraManager : MonoBehaviour
 
         transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, 190, 750),
-            Mathf.Clamp(transform.position.y, 63, 500),
+            Mathf.Clamp(transform.position.y, 10, 500),
             Mathf.Clamp(transform.position.z, -520, 484)
         );
     }
